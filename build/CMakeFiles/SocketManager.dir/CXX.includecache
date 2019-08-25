@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/socket.h
+iostream
+-
+
+../inc/socket_manager.h
+socket.h
+../inc/socket.h
+iostream
+-
+
+/Users/karthikkalyanaraman1/algorithms/raii/src/main.cpp
+socket.h
+/Users/karthikkalyanaraman1/algorithms/raii/src/socket.h
+socket_manager.h
+/Users/karthikkalyanaraman1/algorithms/raii/src/socket_manager.h
+iostream
+-
+utility
+-
+
