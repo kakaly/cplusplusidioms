@@ -12,3 +12,6 @@ Example for registering CallBacks based on:
 * Lambda Functions
 
 Basic and Event Driven
+
+## Pimpl
+Pointer to implementation idiom
