@@ -1,11 +1,11 @@
-## Example code for the following C++ Patterns:
+# Example code for the following C++ Patterns:
 
-# RAII
+## RAII
 Example Application describing RAII pattern of C++ for Resource management
 
 SocketManager manages the lifetime of Socket
 
-# CallBacks
+## CallBacks
 Example for registering CallBacks based on:
 * C Functions
 * Class Functions
